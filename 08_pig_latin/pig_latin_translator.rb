@@ -1,5 +1,5 @@
 module PigLatinTranslator
-  def translate
+  def translate(word)
 
   end
 end

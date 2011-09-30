@@ -3,8 +3,8 @@ class Simon
     something
   end
 
-  def shout
-
+  def shout(something)
+     something.upcase
   end
 
   def repeat(something, number = 2)
@@ -15,11 +15,11 @@ class Simon
     out.join(' ')
   end
 
-  def first_word
-
+  def first_word(sentence)
+    sentence.split(' ').first
   end
 
-  def start_of_word
-
+  def start_of_word(word, number)
+    word[0..number-1]
   end
 end

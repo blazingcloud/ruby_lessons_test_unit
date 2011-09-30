@@ -11,7 +11,7 @@ def test_executes_a_block_and_returns_a_string
   end
 
   def test_executes_a_block_and_returns_a_number
-    #pending
+    fail "pending"
     result = Machine.new.do_something do
       3 + 4
       end
@@ -19,7 +19,7 @@ def test_executes_a_block_and_returns_a_string
   end
 
   def test_executes_a_block_in_the_context_of_the_calling_method
-    #pending
+    fail "pending"
     n = 1
     result = Machine.new.do_something do
       n + 4
@@ -31,7 +31,7 @@ def test_executes_a_block_and_returns_a_string
 
 
   def test_executes_a_block_3_times_and_returns_the_result
-    #pending
+    fail "pending"
     n = 5
     result = Machine.new.do_something(3) do
       n += 1

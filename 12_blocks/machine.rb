@@ -1,5 +1,5 @@
 class Machine
    def do_something
-     something
+     "hello"
    end
 end

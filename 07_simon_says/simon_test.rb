@@ -31,7 +31,7 @@ class SimonTest < Test::Unit::TestCase
   end
 
   def test_return_the_first_letter
-    assert_equal "h", @simon.first_word("Hello World"), "should say 'h'"
+    assert_equal "h", @simon.start_of_word("hello", 1), "should say 'h'"
   end
 
   def test_return_first_two_letters
