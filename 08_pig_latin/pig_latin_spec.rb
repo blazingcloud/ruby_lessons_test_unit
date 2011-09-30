@@ -1,4 +1,4 @@
-require "#{File.dirname(__FILE__)}/pig_latin"
+require "#{File.dirname(__FILE__)}/pig_latin_translator"
 
 describe "#translate" do
   include PigLatinTranslator
