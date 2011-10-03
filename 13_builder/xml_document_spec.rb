@@ -70,13 +70,13 @@ describe XmlDocument do
 
   it "indents" do
     @xml = XmlDocument.new(true)
-    @xml.hello do
+    var = @xml.hello do
       @xml.goodbye do
         @xml.come_back do
           @xml.ok_fine(:be => "that_way")
         end
       end
-    end.should == 
+    end.should ==
     "<hello>\n" + 
     "  <goodbye>\n" + 
     "    <come_back>\n" + 
